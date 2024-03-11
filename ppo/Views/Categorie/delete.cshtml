@@ -1,0 +1,8 @@
+﻿@model DAL.Entity.Categorie
+
+<h2>Confirmez la suppression de la catégorie : @Model.Nom</h2>
+
+<form asp-controller="Categorie" asp-action="DeleteConfirmed" asp-route-id="@Model.Id" method="post">
+    <button type="submit" class="btn btn-danger">Confirmer la suppression</button>
+    <a asp-controller="Categorie" asp-action="Index" class="btn btn-secondary">Annuler</a>
+</form>

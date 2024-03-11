@@ -1,0 +1,17 @@
+C:\Users\jaafar\source\repos\ppo\BLL\bin\Debug\net7.0\BLL.deps.json
+C:\Users\jaafar\source\repos\ppo\BLL\bin\Debug\net7.0\BLL.dll
+C:\Users\jaafar\source\repos\ppo\BLL\bin\Debug\net7.0\BLL.pdb
+C:\Users\jaafar\source\repos\ppo\BLL\bin\Debug\net7.0\DAL.dll
+C:\Users\jaafar\source\repos\ppo\BLL\bin\Debug\net7.0\DAL.pdb
+C:\Users\jaafar\source\repos\ppo\BLL\obj\Debug\net7.0\BLL.csproj.AssemblyReference.cache
+C:\Users\jaafar\source\repos\ppo\BLL\obj\Debug\net7.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jaafar\source\repos\ppo\BLL\obj\Debug\net7.0\BLL.AssemblyInfoInputs.cache
+C:\Users\jaafar\source\repos\ppo\BLL\obj\Debug\net7.0\BLL.AssemblyInfo.cs
+C:\Users\jaafar\source\repos\ppo\BLL\obj\Debug\net7.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\jaafar\source\repos\ppo\BLL\obj\Debug\net7.0\BLL.csproj.CopyComplete
+C:\Users\jaafar\source\repos\ppo\BLL\obj\Debug\net7.0\BLL.dll
+C:\Users\jaafar\source\repos\ppo\BLL\obj\Debug\net7.0\refint\BLL.dll
+C:\Users\jaafar\source\repos\ppo\BLL\obj\Debug\net7.0\BLL.pdb
+C:\Users\jaafar\source\repos\ppo\BLL\obj\Debug\net7.0\ref\BLL.dll
+C:\Users\jaafar\source\repos\ppo\BLL\bin\Debug\net7.0\BLL.runtimeconfig.json
+C:\Users\jaafar\source\repos\ppo\BLL\obj\Debug\net7.0\BLL.genruntimeconfig.cache

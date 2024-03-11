@@ -1,0 +1,14 @@
+C:\Users\jaafar\source\repos\ppo\DAL\bin\Debug\net7.0\DAL.deps.json
+C:\Users\jaafar\source\repos\ppo\DAL\bin\Debug\net7.0\DAL.dll
+C:\Users\jaafar\source\repos\ppo\DAL\bin\Debug\net7.0\DAL.pdb
+C:\Users\jaafar\source\repos\ppo\DAL\obj\Debug\net7.0\DAL.csproj.AssemblyReference.cache
+C:\Users\jaafar\source\repos\ppo\DAL\obj\Debug\net7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jaafar\source\repos\ppo\DAL\obj\Debug\net7.0\DAL.AssemblyInfoInputs.cache
+C:\Users\jaafar\source\repos\ppo\DAL\obj\Debug\net7.0\DAL.AssemblyInfo.cs
+C:\Users\jaafar\source\repos\ppo\DAL\obj\Debug\net7.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\jaafar\source\repos\ppo\DAL\obj\Debug\net7.0\DAL.dll
+C:\Users\jaafar\source\repos\ppo\DAL\obj\Debug\net7.0\refint\DAL.dll
+C:\Users\jaafar\source\repos\ppo\DAL\obj\Debug\net7.0\DAL.pdb
+C:\Users\jaafar\source\repos\ppo\DAL\obj\Debug\net7.0\ref\DAL.dll
+C:\Users\jaafar\source\repos\ppo\DAL\bin\Debug\net7.0\DAL.runtimeconfig.json
+C:\Users\jaafar\source\repos\ppo\DAL\obj\Debug\net7.0\DAL.genruntimeconfig.cache

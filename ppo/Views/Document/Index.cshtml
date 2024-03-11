@@ -1,0 +1,48 @@
+﻿@model List<DAL.Entity.Documentss>
+
+<div class="container">
+    <div class="text-center">
+        <h1 class="display-4">@ViewData["TitrePage"]</h1>
+    </div>
+
+    <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>N° Document</th>
+                    <th>Nom</th>
+                    <th>Date</th>
+                    <th>Type</th>
+                    <th>Taille</th>
+                    <th>Catégorie</th>
+                    <th>Actions</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var document in Model)
+                {
+                    <tr>
+                        <td>@document.Id</td>
+                        <td>@document.Nom</td>
+                        <td>@document.Date.ToString("yyyy-MM-dd")</td>
+                        <td>@document.IdType</td>
+                        <td>@document.Taille</td>
+                        <td>@document.IdCategorie</td>
+                        <td class="text-center align-middle">
+                            <div>
+                                <a asp-controller="Document" asp-action="Update" class="btn btn-primary m-lg-1" asp-route-id="@document.Id">Update</a>
+
+                                    <a asp-controller="Document" asp-action="Delete" asp-route-id="@document.Id" class="btn btn-danger m-lg-1">Delete</a>
+                                <a asp-controller="Document" asp-action="Create" class="btn btn-success m-lg-1">Create</a>
+                            </div>
+                        </td>
+
+
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

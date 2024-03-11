@@ -1,0 +1,4 @@
+﻿@model DAL.Entity.Documentss
+<h1>'etes vous sur de vouloir supprimer le document de l'id @Model.Id' </h1>
+<form method="post" asp-controller="Document" asp-action="Deletee" asp-route-id="@Model.Id"> <button type="submit"> supprimer</button> </form>
+<a asp-controller="Document" asp-action="Index">retour</a>

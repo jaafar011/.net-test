@@ -1,0 +1,39 @@
+﻿<style>
+    .custom-link {
+        color: #007bff;
+        text-decoration: none;
+        margin-right: 40px;
+        font-size: 22px;
+    }
+
+        .custom-link:hover {
+            color: #0056b3;
+        }
+
+    .center-outer {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px; /* Ajustez la marge vers le bas selon vos besoins */
+    }
+
+    .center-button {
+        font-size: 24px;
+    }
+</style>
+
+<div class="text-center">
+    <h1 class="display-4 mb-5">Bienvenue Site D'upload'</h1>
+    <a asp-controller="Document" asp-action="index" class="custom-link">Documents</a>
+    <a asp-controller="Categorie" asp-action="index" class="custom-link">Categories</a>
+    <a asp-controller="Types" asp-action="index" class="custom-link">Types</a>
+</div>
+
+<!-- Nouvelle div pour le bouton centré horizontalement -->
+<div class="center-outer">
+    <button class="btn btn-primary center-button">Upload un document </button>
+</div>
+
+<!-- Bouton "Create" vers le bas de la page -->
+<div class="text-center mt-5">
+    <a asp-controller="Document" asp-action="Create" class="btn btn-success m-lg-1">Create</a>
+</div>

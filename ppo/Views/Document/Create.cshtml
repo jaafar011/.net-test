@@ -1,0 +1,35 @@
+﻿@model DAL.Entity.Documentss
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Ajouter Nouveau Document</h5>
+        <form method="post" asp-action="Create" asp-controller="Document">
+            <div class="mb-3">
+                <label class="form-label">Nom :</label>
+                <input type="text" asp-for="Nom" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+                <label  class="form-label">Date :</label>
+                <input type="date" asp-for="Date" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+                <label  class="form-label">Type :</label>
+                <input type="text" asp-for="IdType" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+                <label  class="form-label">Taille :</label>
+                <input type="text" asp-for="Taille" class="form-control" required />
+            </div>
+
+            <div class="mb-3">
+                <label  class="form-label">Catégorie :</label>
+                <input type="text" asp-for="IdCategorie" class="form-control" required />
+            </div>
+
+            <button type="submit" class="btn btn-success">Ajouter Document</button>
+        </form>
+    </div>
+</div>
+
